@@ -1,0 +1,130 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 0 100px;
+}
+html {
+	background: no-repeat center center fixed; 
+	background-size: cover;
+ }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #66b2ff;
+    text-shadow: 2px 2px black;
+}
+li {
+    float: left;
+    list-style-type: none
+}
+li a {
+    display: inline-block;
+    color: white;
+    font-family: "Lucida Console";
+    font-size: 18pt;
+    text-align: center;
+    padding: 14px 16px;
+    border: 20px;
+    text-decoration: none;
+    list-style-type: none
+}
+li a:hover {
+    background-color: navy;
+}
+.active {
+    background-color: white;
+    color: navy;
+    text-shadow: none;
+}
+div.transbox {
+    height: 60%;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px ;
+    border-radius: 30px; 
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    text-align: center;
+    font-family: Century Gothic, sans-serif;
+    font-size: 150%;
+}   
+div.transbox:hover {
+    background-color: #ffffff;
+    opacity: 0.95;
+    }
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+p {
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+h1 {
+	font-family: 'Crete Round', serif;
+	font-weight: bold;
+	color: #444;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+a {
+	text-decoration: none;
+	color: #444;
+}
+table{
+
+    }
+    th, td {
+        text-align: left;
+        min-height: 40px;
+        padding: 8px;
+    }
+    tr:nth-child(even){
+        background-color: #ffffcc;
+        border-radius: 15px;
+        overflow:hidden;
+    }
+    tr:nth-child(odd){
+        background-color: #b3ecff;
+        border-radius: 15px;
+    }
+    tr {
+    }
+    th {
+        background-color: #4d79ff;
+        color: white;
+        border-radius: 15px;
+        overflow:hidden;
+    }
+a:hover {
+	color: #02b8dd;
+}
+strong {
+	font-weight: bold;
+}
+small {
+	font-size: 13px;
+	color: #777;
+	font-style: italic;
+}
+img {
+  width: 60px;
+  height: 60px;
+}
+.footer { 
+    position: static;
+    bottom: 0;
+    margin: auto;
+}
+.footer img{
+    width: 60px;
+ 	height: 60px;
+    margin:0px;
+    position: static;
+    bottom: 0;
+}
+

@@ -1,5 +1,4 @@
-// Weather API key = "aeea9844f36e8bc56c13659042b5b15c" 
-// Google Maps API Key = "AIzaSyATd1rGXJE_i9sj2VDTIKUO5hn5QBYI4eY"
+
  //////////////////////////////////////////////////////////////////////////////////////////////////////
  // GLOBAL VARIABLES
 var json;
@@ -32,7 +31,7 @@ var loadData = function (){
   var city = userForm.elements["city"].value;    		//user direct input
   var comma = ",";                               		//add comma for api call formatting
   var country = userForm.elements["mySelect"].value;  	//user selection in list
-  var apiKey = "&mode=json&appid=aeea9844f36e8bc56c13659042b5b15c&units=";
+  var apiKey = "&mode=json&appid=xxxxxxxxxxxx&units=";
   var units = userForm.elements["units"].value;   		//user choice in radio button
   var add = "&cnt=";
   var days = userForm.elements["day"].value;          		//user choice in radio button
@@ -144,7 +143,7 @@ xmlhttp.send();
 	var city2 = userForm.elements["city"].value;    		//user direct input
 	var comma2 = ",";                               		//add comma for api call formatting
 	var country2 = userForm.elements["mySelect"].value;  	//user selection in list
-	var apiKey2 = "&appid=aeea9844f36e8bc56c13659042b5b15c&units=";
+	var apiKey2 = "&appid=xxxxxxxxxxxx&units=";
 	var units2 = userForm.elements["units"].value;   		//user choice in radio button
 	var add2 = "&cnt=";
 	var days2 = userForm.elements["day"].value*8;          	//user choice in radio button  
